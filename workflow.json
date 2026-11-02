@@ -46,14 +46,14 @@
           "useWorkflowTimezone": true
         }
       },
+      "id": "cd7a93f9-2e86-4d9a-bf14-843c961e8706",
+      "name": "On form submission",
       "type": "n8n-nodes-base.formTrigger",
       "typeVersion": 2.6,
       "position": [
         0,
         0
-      ],
-      "id": "cd7a93f9-2e86-4d9a-bf14-843c961e8706",
-      "name": "On form submission"
+      ]
     },
     {
       "parameters": {
@@ -72,14 +72,14 @@
         },
         "options": {}
       },
+      "id": "4fd2e52d-4da0-4c5a-bdb1-8af9117b3a9e",
+      "name": "Upload CV to Google Drive",
       "type": "n8n-nodes-base.googleDrive",
       "typeVersion": 3,
       "position": [
         224,
         0
-      ],
-      "id": "4fd2e52d-4da0-4c5a-bdb1-8af9117b3a9e",
-      "name": "Upload CV to Google Drive"
+      ]
     },
     {
       "parameters": {
@@ -125,14 +125,14 @@
         },
         "options": {}
       },
+      "id": "077a5afc-cf15-4b68-a205-32520c1432d2",
+      "name": "Edit Fields",
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.5,
       "position": [
         448,
         0
-      ],
-      "id": "077a5afc-cf15-4b68-a205-32520c1432d2",
-      "name": "Edit Fields"
+      ]
     },
     {
       "parameters": {
@@ -439,14 +439,14 @@
           "typecast": true
         }
       },
+      "id": "e3417005-ca65-4f4f-8cfb-a5c1fbeb9293",
+      "name": "Airtable Job Applicants",
       "type": "n8n-nodes-base.airtable",
       "typeVersion": 2.2,
       "position": [
         672,
         0
-      ],
-      "id": "e3417005-ca65-4f4f-8cfb-a5c1fbeb9293",
-      "name": "Airtable Job Applicants"
+      ]
     },
     {
       "parameters": {
@@ -458,28 +458,28 @@
         },
         "options": {}
       },
+      "id": "de11365f-118b-42ea-892c-6661fcfc6fc5",
+      "name": "Download file",
       "type": "n8n-nodes-base.googleDrive",
       "typeVersion": 3,
       "position": [
         896,
         0
-      ],
-      "id": "de11365f-118b-42ea-892c-6661fcfc6fc5",
-      "name": "Download file"
+      ]
     },
     {
       "parameters": {
         "operation": "pdf",
         "options": {}
       },
+      "id": "fa0e697c-953d-40cf-96cb-0b2105819d91",
+      "name": "Extract from File",
       "type": "n8n-nodes-base.extractFromFile",
       "typeVersion": 1.1,
       "position": [
         1120,
         0
-      ],
-      "id": "fa0e697c-953d-40cf-96cb-0b2105819d91",
-      "name": "Extract from File"
+      ]
     },
     {
       "parameters": {
@@ -488,28 +488,28 @@
         "hasOutputParser": true,
         "options": {}
       },
+      "id": "a3fa4158-7b5f-47f9-ba21-16795c10662b",
+      "name": "AI Agent",
       "type": "@n8n/n8n-nodes-langchain.agent",
       "typeVersion": 3.1,
       "position": [
         1344,
         0
-      ],
-      "id": "a3fa4158-7b5f-47f9-ba21-16795c10662b",
-      "name": "AI Agent"
+      ]
     },
     {
       "parameters": {
         "model": "openai/gpt-oss-120b",
         "options": {}
       },
+      "id": "9dc79c3d-0719-4104-ba04-acd396fd3503",
+      "name": "Groq Chat Model",
       "type": "@n8n/n8n-nodes-langchain.lmChatGroq",
       "typeVersion": 1,
       "position": [
         1248,
         208
-      ],
-      "id": "9dc79c3d-0719-4104-ba04-acd396fd3503",
-      "name": "Groq Chat Model"
+      ]
     },
     {
       "parameters": {
@@ -528,27 +528,27 @@
         },
         "options": {}
       },
+      "id": "2d51e1b0-e757-41c3-b1f1-70c315c11eb4",
+      "name": "Search records in Airtable",
       "type": "n8n-nodes-base.airtableTool",
       "typeVersion": 2.2,
       "position": [
         1392,
         208
-      ],
-      "id": "2d51e1b0-e757-41c3-b1f1-70c315c11eb4",
-      "name": "Search records in Airtable"
+      ]
     },
     {
       "parameters": {
         "jsonSchemaExample": "{\n \"score\": 0.8,\n \"reason\": \"Does not meet required number of experience in years\"\n}\n"
       },
+      "id": "709784d0-e4de-48a2-abad-3fad17e17dd9",
+      "name": "Structured Output Parser",
       "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
       "typeVersion": 1.3,
       "position": [
         1536,
         208
-      ],
-      "id": "709784d0-e4de-48a2-abad-3fad17e17dd9",
-      "name": "Structured Output Parser"
+      ]
     },
     {
       "parameters": {
@@ -574,14 +574,14 @@
         },
         "options": {}
       },
+      "id": "f4c0103c-d015-4e4a-b620-42a8449fe13e",
+      "name": "If",
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.3,
       "position": [
         1712,
         0
-      ],
-      "id": "f4c0103c-d015-4e4a-b620-42a8449fe13e",
-      "name": "If"
+      ]
     },
     {
       "parameters": {
@@ -897,14 +897,14 @@
         },
         "options": {}
       },
+      "id": "e0754ada-4b66-40ce-9eb5-8a9ef439ff14",
+      "name": "Potential Hire",
       "type": "n8n-nodes-base.airtable",
       "typeVersion": 2.2,
       "position": [
         1936,
-        -96
-      ],
-      "id": "e0754ada-4b66-40ce-9eb5-8a9ef439ff14",
-      "name": "Potential Hire"
+        -64
+      ]
     },
     {
       "parameters": {
@@ -1220,14 +1220,14 @@
         },
         "options": {}
       },
+      "id": "97091ea0-2438-4f85-a361-cb7753399a76",
+      "name": "Rejected",
       "type": "n8n-nodes-base.airtable",
       "typeVersion": 2.2,
       "position": [
         1936,
         96
-      ],
-      "id": "97091ea0-2438-4f85-a361-cb7753399a76",
-      "name": "Rejected"
+      ]
     },
     {
       "parameters": {
@@ -1246,14 +1246,14 @@
         },
         "options": {}
       },
+      "id": "936a5682-da07-477e-a341-011e3635507d",
+      "name": "Search records in Airtable1",
       "type": "n8n-nodes-base.airtableTool",
       "typeVersion": 2.2,
       "position": [
         192,
         752
-      ],
-      "id": "936a5682-da07-477e-a341-011e3635507d",
-      "name": "Search records in Airtable1"
+      ]
     },
     {
       "parameters": {
@@ -1262,14 +1262,14 @@
         "hasOutputParser": true,
         "options": {}
       },
+      "id": "3e164728-36f8-470c-8173-68f158007ff0",
+      "name": "Generate Questionaire",
       "type": "@n8n/n8n-nodes-langchain.agent",
       "typeVersion": 3.1,
       "position": [
         128,
         496
-      ],
-      "id": "3e164728-36f8-470c-8173-68f158007ff0",
-      "name": "Generate Questionaire"
+      ]
     },
     {
       "parameters": {
@@ -1282,27 +1282,27 @@
         "builtInTools": {},
         "options": {}
       },
+      "id": "4d99dbb6-ae12-491d-9ce3-ab8b6025dc67",
+      "name": "OpenAI Chat Model",
       "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
       "typeVersion": 1.3,
       "position": [
         16,
         752
-      ],
-      "id": "4d99dbb6-ae12-491d-9ce3-ab8b6025dc67",
-      "name": "OpenAI Chat Model"
+      ]
     },
     {
       "parameters": {
         "jsonSchemaExample": "{\"questions\": [\"<sample question 1>\", \"<sample question 2>\", \"<sample question 3>\", \"<sample question 4>\", \"<sample question 5>\"]\n}\n"
       },
+      "id": "ef1343f9-e669-446e-9289-42d061b65256",
+      "name": "Structured Output Parser1",
       "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
       "typeVersion": 1.3,
       "position": [
         352,
         752
-      ],
-      "id": "ef1343f9-e669-446e-9289-42d061b65256",
-      "name": "Structured Output Parser1"
+      ]
     },
     {
       "parameters": {
@@ -1336,14 +1336,14 @@
           "buttonLabel": "Submit"
         }
       },
+      "id": "73b17f4e-89b9-4c62-98d6-5eb20fb4da56",
+      "name": "Questionnaire",
       "type": "n8n-nodes-base.form",
       "typeVersion": 2.5,
       "position": [
         480,
         496
-      ],
-      "id": "73b17f4e-89b9-4c62-98d6-5eb20fb4da56",
-      "name": "Questionnaire"
+      ]
     },
     {
       "parameters": {
@@ -1657,14 +1657,14 @@
         },
         "options": {}
       },
+      "id": "89626280-28e8-4fb6-8f6b-0aa23cda77e4",
+      "name": "Save Questionnaire Answers",
       "type": "n8n-nodes-base.airtable",
       "typeVersion": 2.2,
       "position": [
         704,
         496
-      ],
-      "id": "89626280-28e8-4fb6-8f6b-0aa23cda77e4",
-      "name": "Save Questionnaire Answers"
+      ]
     },
     {
       "parameters": {
@@ -1673,14 +1673,14 @@
         "hasOutputParser": true,
         "options": {}
       },
+      "id": "ab714070-0e55-4717-8fcf-538dd3713714",
+      "name": "Personalized Email",
       "type": "@n8n/n8n-nodes-langchain.agent",
       "typeVersion": 3.1,
       "position": [
         1360,
         496
-      ],
-      "id": "ab714070-0e55-4717-8fcf-538dd3713714",
-      "name": "Personalized Email"
+      ]
     },
     {
       "parameters": {
@@ -1699,14 +1699,14 @@
         },
         "options": {}
       },
+      "id": "70eda796-3b08-4698-a38f-eba096c28c46",
+      "name": "get_job_posting",
       "type": "n8n-nodes-base.airtableTool",
       "typeVersion": 2.2,
       "position": [
         1520,
         768
-      ],
-      "id": "70eda796-3b08-4698-a38f-eba096c28c46",
-      "name": "get_job_posting"
+      ]
     },
     {
       "parameters": {
@@ -1725,41 +1725,41 @@
         "id": "={{ $json.id }}",
         "options": {}
       },
+      "id": "90f8b945-656b-4752-a801-94fd6fe034d5",
+      "name": "Get a record in Airtable",
       "type": "n8n-nodes-base.airtableTool",
       "typeVersion": 2.2,
       "position": [
         1376,
         768
-      ],
-      "id": "90f8b945-656b-4752-a801-94fd6fe034d5",
-      "name": "Get a record in Airtable"
+      ]
     },
     {
       "parameters": {
         "model": "openai/gpt-oss-120b",
         "options": {}
       },
+      "id": "1838de2d-1152-4c51-857e-16220858ca6e",
+      "name": "Groq Chat Model1",
       "type": "@n8n/n8n-nodes-langchain.lmChatGroq",
       "typeVersion": 1,
       "position": [
         1232,
         768
-      ],
-      "id": "1838de2d-1152-4c51-857e-16220858ca6e",
-      "name": "Groq Chat Model1"
+      ]
     },
     {
       "parameters": {
         "jsonSchemaExample": "{\n\"Subject\":\"<This is an email subject>\",\n\"EmailContent\":\"<This is an email content>\"\n}\n"
       },
+      "id": "f968e759-21d2-4cc5-9bdc-ba8add3824aa",
+      "name": "Structured Output Parser2",
       "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
       "typeVersion": 1.3,
       "position": [
         1664,
         768
-      ],
-      "id": "f968e759-21d2-4cc5-9bdc-ba8add3824aa",
-      "name": "Structured Output Parser2"
+      ]
     },
     {
       "parameters": {
@@ -1781,14 +1781,14 @@
         },
         "options": {}
       },
+      "id": "3a9a32d5-ab7e-43a2-b21e-5e4d1c67cee0",
+      "name": "Edit Fields1",
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.5,
       "position": [
         1728,
         496
-      ],
-      "id": "3a9a32d5-ab7e-43a2-b21e-5e4d1c67cee0",
-      "name": "Edit Fields1"
+      ]
     },
     {
       "parameters": {
@@ -1800,83 +1800,57 @@
           "appendAttribution": false
         }
       },
+      "id": "c6193ee5-9c6e-4310-ba82-d52d86d8d9b0",
+      "name": "Send a message",
       "type": "n8n-nodes-base.gmail",
       "typeVersion": 2.2,
       "position": [
         1952,
         496
-      ],
-      "id": "c6193ee5-9c6e-4310-ba82-d52d86d8d9b0",
-      "name": "Send a message"
+      ]
     },
     {
       "parameters": {
         "model": "openai/gpt-oss-120b",
         "options": {}
       },
+      "id": "6a2aa446-ce0c-4eaa-8703-b3b630b23823",
+      "name": "Groq Chat Model2",
       "type": "@n8n/n8n-nodes-langchain.lmChatGroq",
       "typeVersion": 1,
       "position": [
         32,
         1328
-      ],
-      "id": "6a2aa446-ce0c-4eaa-8703-b3b630b23823",
-      "name": "Groq Chat Model2"
+      ]
     },
     {
       "parameters": {
-        "jsonSchemaExample": "{\n\t\"startTime\": \"<start time of the meeting>\",\n\t\"endTime\": \"<end time of the meeting>\"\n}\n"
+        "jsonSchemaExample": "{\n\t\"startTime\": \"2026-11-09T09:00:00-06:00\",\n\t\"endTime\": \"2026-11-09T09:30:00-06:00\"\n}\n"
       },
+      "id": "322538a5-5af2-4457-a272-1bb46bbe689b",
+      "name": "Structured Output Parser3",
       "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
       "typeVersion": 1.3,
       "position": [
         352,
         1328
-      ],
-      "id": "322538a5-5af2-4457-a272-1bb46bbe689b",
-      "name": "Structured Output Parser3"
-    },
-    {
-      "parameters": {
-        "calendar": {
-          "__rl": true,
-          "value": "YOUR_CALENDAR_ID",
-          "mode": "list",
-          "cachedResultName": "you@example.com"
-        },
-        "start": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Start', ``, 'string') }}",
-        "end": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('End', ``, 'string') }}",
-        "additionalFields": {
-          "attendees": [
-            "={{ $('On form submission').item.json.Email }}"
-          ],
-          "location": "Online"
-        }
-      },
-      "type": "n8n-nodes-base.googleCalendarTool",
-      "typeVersion": 1.3,
-      "position": [
-        192,
-        1328
-      ],
-      "id": "4dbd822c-ea98-4346-be46-627e9a4acaac",
-      "name": "Create an event in Google Calendar"
+      ]
     },
     {
       "parameters": {
         "promptType": "define",
-        "text": "=Check the interviewer's calendar for available 30-minute time slots within working hours (8 AM - 5 PM) the next day. Schedule the meeting and confirm the time with the candidate. Ensure that the meeting time is aligned with the candidate's and interviewer's availability.\n\nInputs:\n\n The interviewer's calendar for scheduling.\n Today's date: {{ $today }}\n\nUse the calendar tool to book the meeting\n\n\nGive back the following information:\nStart time:\nEnd time:\n",
+        "text": "=You choose the time for a 30-minute phone interview with a job applicant. You do not book it; the workflow books the time you return.\n\nRules:\n- The interviewer works in Central time (America/Chicago).\n- Working days are Monday to Friday. Working hours are 8:00 AM to 5:00 PM Central time.\n- Choose the earliest free 30-minute slot, starting on the hour or half hour, on the next working day after today. If that day has no free slot, use the following working day.\n- Before choosing, use the calendar tool to list the interviewer's events for the day you are considering. Timed events are busy. All-day entries do not block time.\n\nToday is {{ $now.setZone('America/Chicago').toFormat('cccc, d LLLL yyyy') }} in Central time.\n\nReturn startTime and endTime as ISO 8601 with the Central offset, for example 2026-11-09T09:00:00-06:00.\n",
         "hasOutputParser": true,
         "options": {}
       },
+      "id": "c7850bb8-fab0-4b17-a1e0-6f7f883eaa5c",
+      "name": "Book Meeting",
       "type": "@n8n/n8n-nodes-langchain.agent",
       "typeVersion": 3.1,
       "position": [
         112,
         1104
-      ],
-      "id": "c7850bb8-fab0-4b17-a1e0-6f7f883eaa5c",
-      "name": "Book Meeting"
+      ]
     },
     {
       "parameters": {
@@ -1896,8 +1870,8 @@
         "columns": {
           "mappingMode": "defineBelow",
           "value": {
-            "id": "={{ $('Airtable Job Applicants').item.json.id }}",
-            "Phone interview": "={{ $json.output.startTime }}"
+            "id": "={{ $('Airtable Job Applicants').first().json.id }}",
+            "Phone interview": "={{ $('Confirm Interview Slot').first().json.startTime }}"
           },
           "matchingColumns": [
             "id"
@@ -2190,14 +2164,14 @@
         },
         "options": {}
       },
+      "id": "4b3d543c-5d3c-47a8-bb49-f21e2af70a7e",
+      "name": "Update Interview Schedule",
       "type": "n8n-nodes-base.airtable",
       "typeVersion": 2.2,
       "position": [
-        480,
+        928,
         1104
-      ],
-      "id": "4b3d543c-5d3c-47a8-bb49-f21e2af70a7e",
-      "name": "Update Interview Schedule"
+      ]
     },
     {
       "parameters": {
@@ -2216,14 +2190,14 @@
         },
         "options": {}
       },
+      "id": "6a15ebaf-737b-4363-a66f-690dd6f19a94",
+      "name": "Search records in Airtable2",
       "type": "n8n-nodes-base.airtableTool",
       "typeVersion": 2.2,
       "position": [
         1424,
         1312
-      ],
-      "id": "6a15ebaf-737b-4363-a66f-690dd6f19a94",
-      "name": "Search records in Airtable2"
+      ]
     },
     {
       "parameters": {
@@ -2242,29 +2216,29 @@
         "id": "={{ $json.id }}",
         "options": {}
       },
+      "id": "73a83d2b-b0e5-44af-b1cc-e45fc6c07090",
+      "name": "Get a record in Airtable1",
       "type": "n8n-nodes-base.airtableTool",
       "typeVersion": 2.2,
       "position": [
         1584,
         1312
-      ],
-      "id": "73a83d2b-b0e5-44af-b1cc-e45fc6c07090",
-      "name": "Get a record in Airtable1"
+      ]
     },
     {
       "parameters": {
         "promptType": "define",
-        "text": "=Given the job description, along with the candidate's CV and their responses to the questionnaires, generate a list of screening questions that will help gauge the candidate's suitability for the role. The questions should focus on understanding the candidate’s relevant experience, skills, and cultural fit. The questions should take into account both the job description and the candidate's background and responses. Provide a minimum of 5 questions.\n\nUse the tools to get the job description and the applicant's responses to the questionnaires.\n\nApplicant's CV:\n{{ $('Extract from File').item.json.text }}\n\n\nGive the output as various sentences as a paragraph with every new question in a new line.\n",
+        "text": "=Given the job description, along with the candidate's CV and their responses to the questionnaires, generate a list of screening questions that will help gauge the candidate's suitability for the role. The questions should focus on understanding the candidate’s relevant experience, skills, and cultural fit. The questions should take into account both the job description and the candidate's background and responses. Provide a minimum of 5 questions.\n\nUse the tools to get the job description and the applicant's responses to the questionnaires.\n\nApplicant's CV:\n{{ $('Extract from File').first().json.text }}\n\n\nGive the output as various sentences as a paragraph with every new question in a new line.\n",
         "options": {}
       },
+      "id": "8d59002e-3d9b-43ae-a962-fcf82bd4181b",
+      "name": "Screening Questions via Phone",
       "type": "@n8n/n8n-nodes-langchain.agent",
       "typeVersion": 3.1,
       "position": [
         1360,
         1104
-      ],
-      "id": "8d59002e-3d9b-43ae-a962-fcf82bd4181b",
-      "name": "Screening Questions via Phone"
+      ]
     },
     {
       "parameters": {
@@ -2277,14 +2251,14 @@
         "builtInTools": {},
         "options": {}
       },
+      "id": "0b47ca11-ea4c-4cf5-8811-07e4ef23d4a6",
+      "name": "OpenAI Chat Model1",
       "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
       "typeVersion": 1.3,
       "position": [
         1248,
         1312
-      ],
-      "id": "0b47ca11-ea4c-4cf5-8811-07e4ef23d4a6",
-      "name": "OpenAI Chat Model1"
+      ]
     },
     {
       "parameters": {
@@ -2300,14 +2274,14 @@
         },
         "options": {}
       },
+      "id": "9e91d7bd-d605-493d-919e-4928d31f2e31",
+      "name": "Edit Fields2",
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.5,
       "position": [
         1728,
         1104
-      ],
-      "id": "9e91d7bd-d605-493d-919e-4928d31f2e31",
-      "name": "Edit Fields2"
+      ]
     },
     {
       "parameters": {
@@ -2621,14 +2595,14 @@
         },
         "options": {}
       },
+      "id": "2594e40d-1d21-47c2-8244-e0fe19bbd33c",
+      "name": "Update record",
       "type": "n8n-nodes-base.airtable",
       "typeVersion": 2.2,
       "position": [
         1952,
         1104
-      ],
-      "id": "2594e40d-1d21-47c2-8244-e0fe19bbd33c",
-      "name": "Update record"
+      ]
     },
     {
       "parameters": {
@@ -2636,29 +2610,29 @@
         "height": 560,
         "width": 2336
       },
+      "id": "83c44a39-474b-4aa0-b6b2-90287d7f5393",
+      "name": "Sticky Note",
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
       "position": [
         -144,
         -176
-      ],
-      "id": "83c44a39-474b-4aa0-b6b2-90287d7f5393",
-      "name": "Sticky Note"
+      ]
     },
     {
       "parameters": {
         "content": "Generate Questionnaires for Potential Hire",
         "height": 496,
-        "width": 1120
+        "width": 1232
       },
+      "id": "223a2e01-9924-4518-b36b-65b7f8fb379a",
+      "name": "Sticky Note1",
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
       "position": [
         -144,
         448
-      ],
-      "id": "223a2e01-9924-4518-b36b-65b7f8fb379a",
-      "name": "Sticky Note1"
+      ]
     },
     {
       "parameters": {
@@ -2666,29 +2640,29 @@
         "height": 496,
         "width": 1008
       },
+      "id": "5fe41cce-df1b-4bf0-a21d-dc398c60e7b3",
+      "name": "Sticky Note2",
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
       "position": [
         1184,
         448
-      ],
-      "id": "5fe41cce-df1b-4bf0-a21d-dc398c60e7b3",
-      "name": "Sticky Note2"
+      ]
     },
     {
       "parameters": {
         "content": "Book a slot for Interview",
         "height": 496,
-        "width": 1120
+        "width": 1232
       },
+      "id": "7af0ccda-b037-4af9-ae19-5b723a9b9f56",
+      "name": "Sticky Note3",
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
       "position": [
         -144,
         1024
-      ],
-      "id": "7af0ccda-b037-4af9-ae19-5b723a9b9f56",
-      "name": "Sticky Note3"
+      ]
     },
     {
       "parameters": {
@@ -2696,14 +2670,107 @@
         "height": 496,
         "width": 1008
       },
+      "id": "e189558c-06a4-4124-8a6f-145ff0242cd5",
+      "name": "Sticky Note4",
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
       "position": [
         1184,
         1024
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "getAll",
+        "calendar": {
+          "__rl": true,
+          "value": "YOUR_CALENDAR_ID",
+          "mode": "list",
+          "cachedResultName": "you@example.com"
+        },
+        "returnAll": true,
+        "timeMin": "={{ $fromAI('After', 'Start of the period to list, as ISO 8601 with the Central offset, e.g. 2026-11-09T08:00:00-06:00', 'string') }}",
+        "timeMax": "={{ $fromAI('Before', 'End of the period to list, as ISO 8601 with the Central offset, e.g. 2026-11-09T17:00:00-06:00', 'string') }}",
+        "options": {
+          "orderBy": "startTime"
+        }
+      },
+      "id": "118673ff-30c8-4e33-b90f-05781af9d093",
+      "name": "Read Interviewer Calendar",
+      "type": "n8n-nodes-base.googleCalendarTool",
+      "typeVersion": 1.3,
+      "position": [
+        192,
+        1328
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "getAll",
+        "calendar": {
+          "__rl": true,
+          "value": "YOUR_CALENDAR_ID",
+          "mode": "list",
+          "cachedResultName": "you@example.com"
+        },
+        "returnAll": true,
+        "timeMin": "={{ $now.toISO() }}",
+        "timeMax": "={{ $now.plus({ days: 8 }).toISO() }}",
+        "options": {}
+      },
+      "id": "0655608b-8eb1-4845-89b6-5b0b74958ce7",
+      "name": "Get Interviewer Week",
+      "type": "n8n-nodes-base.googleCalendar",
+      "typeVersion": 1.3,
+      "alwaysOutputData": true,
+      "position": [
+        400,
+        1104
       ],
-      "id": "e189558c-06a4-4124-8a6f-145ff0242cd5",
-      "name": "Sticky Note4"
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Confirms the interview time the Book Meeting agent proposed, or picks the\n// first free slot itself when the proposal breaks a rule: a 30-minute call on a\n// weekday after today, 8:00 AM to 5:00 PM Central time, within the week of\n// calendar read before this node, and clear of every timed busy event.\nconst TIME_ZONE = 'America/Chicago';\nconst OPEN_MINUTES = 8 * 60;\nconst CLOSE_MINUTES = 17 * 60;\nconst SLOT_MS = 30 * 60 * 1000;\nconst WINDOW_MS = 8 * 24 * 60 * 60 * 1000;\n\nconst partFormatter = new Intl.DateTimeFormat('en-US', {\n  timeZone: TIME_ZONE, weekday: 'short', year: 'numeric', month: '2-digit', day: '2-digit',\n  hour: '2-digit', minute: '2-digit', hourCycle: 'h23',\n});\n\nfunction local(date) {\n  const p = Object.fromEntries(partFormatter.formatToParts(date)\n    .filter(({ type }) => type !== 'literal')\n    .map(({ type, value }) => [type, value]));\n  return { day: `${p.year}-${p.month}-${p.day}`, weekday: p.weekday, minutes: Number(p.hour) * 60 + Number(p.minute) };\n}\n\nconst events = $input.all().map(({ json }) => json);\nconst failed = events.find((event) => event && event.error);\nif (failed) throw new Error('The interviewer calendar could not be read: ' + JSON.stringify(failed.error));\n\n// Cancelled, \"show as free\" and all-day events never block a slot.\nconst busy = events.map((event) => {\n  if (!event || event.status === 'cancelled' || event.transparency === 'transparent') return null;\n  const start = new Date(event.start?.dateTime ?? NaN);\n  const end = new Date(event.end?.dateTime ?? NaN);\n  return end > start ? { start, end } : null;\n}).filter(Boolean);\n\nconst now = new Date();\nconst today = local(now).day;\n\nfunction isFree(start) {\n  const end = new Date(start.getTime() + SLOT_MS);\n  const from = local(start);\n  const to = local(end);\n  return from.day > today && from.weekday !== 'Sat' && from.weekday !== 'Sun' &&\n    from.day === to.day && from.minutes >= OPEN_MINUTES && to.minutes <= CLOSE_MINUTES &&\n    end.getTime() <= now.getTime() + WINDOW_MS &&\n    !busy.some((slot) => start < slot.end && end > slot.start);\n}\n\nconst proposal = $('Book Meeting').first().json.output ?? {};\nconst proposed = new Date(proposal.startTime);\nlet start = !Number.isNaN(proposed.getTime()) && proposed.getTime() % SLOT_MS === 0 && isFree(proposed) ? proposed : null;\nconst source = start ? 'agent' : 'fallback';\n\nfor (let ms = Math.ceil(now.getTime() / SLOT_MS) * SLOT_MS; !start && ms < now.getTime() + WINDOW_MS; ms += SLOT_MS) {\n  if (isFree(new Date(ms))) start = new Date(ms);\n}\nif (!start) throw new Error('No free 30-minute interview slot in the next week.');\n\nreturn [{\n  json: {\n    startTime: start.toISOString(),\n    endTime: new Date(start.getTime() + SLOT_MS).toISOString(),\n    source,\n    proposedStartTime: String(proposal.startTime ?? ''),\n  },\n  pairedItem: { item: 0 },\n}];\n"
+      },
+      "id": "6bddab86-e2c0-40e0-bea5-528e246dbba9",
+      "name": "Confirm Interview Slot",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        592,
+        1104
+      ]
+    },
+    {
+      "parameters": {
+        "calendar": {
+          "__rl": true,
+          "value": "YOUR_CALENDAR_ID",
+          "mode": "list",
+          "cachedResultName": "you@example.com"
+        },
+        "start": "={{ $json.startTime }}",
+        "end": "={{ $json.endTime }}",
+        "additionalFields": {
+          "allday": "no",
+          "attendees": [
+            "={{ $('On form submission').first().json.Email }}"
+          ],
+          "location": "Online",
+          "sendUpdates": "all",
+          "showMeAs": "opaque",
+          "summary": "={{ 'Phone interview: ' + $('On form submission').first().json['First Name'] + ' ' + $('On form submission').first().json['Last Name'] }}"
+        }
+      },
+      "id": "c9f73371-82c4-42cc-ae38-7c4c2e967976",
+      "name": "Book Interview",
+      "type": "n8n-nodes-base.googleCalendar",
+      "typeVersion": 1.3,
+      "position": [
+        768,
+        1104
+      ]
     }
   ],
   "connections": {
@@ -3011,28 +3078,6 @@
         ]
       ]
     },
-    "Create an event in Google Calendar": {
-      "ai_tool": [
-        [
-          {
-            "node": "Book Meeting",
-            "type": "ai_tool",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "Book Meeting": {
-      "main": [
-        [
-          {
-            "node": "Update Interview Schedule",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
     "Update Interview Schedule": {
       "main": [
         [
@@ -3093,6 +3138,61 @@
         [
           {
             "node": "Update record",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read Interviewer Calendar": {
+      "ai_tool": [
+        [
+          {
+            "node": "Book Meeting",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Book Meeting": {
+      "main": [
+        [
+          {
+            "node": "Get Interviewer Week",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Interviewer Week": {
+      "main": [
+        [
+          {
+            "node": "Confirm Interview Slot",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Confirm Interview Slot": {
+      "main": [
+        [
+          {
+            "node": "Book Interview",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Book Interview": {
+      "main": [
+        [
+          {
+            "node": "Update Interview Schedule",
             "type": "main",
             "index": 0
           }
